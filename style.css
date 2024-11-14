@@ -121,6 +121,10 @@ a:hover {
     h1 {
         font-size: 1.5rem;
     }
+    #main-content {
+        width: 100%;
+        margin: 0 auto;
+    }
 } 
 
 /* Celulares Médios */
