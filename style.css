@@ -64,6 +64,7 @@ h1 {
     max-width: 100%;
     margin: 0 auto;
     font-size: 1rem;
+    text-transform: uppercase;
     
 }
 
@@ -107,7 +108,18 @@ a:hover {
 
 @media (max-width: 765px) {
     .logo {
-        display: none;
+        display: block;
+        position: static;
+    }
+    #header {
+        margin-top: 1rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    h1 {
+        font-size: 1.5rem;
     }
 } 
 
